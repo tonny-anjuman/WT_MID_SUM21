@@ -79,7 +79,7 @@
 				</tr>
 				<tr>
 					<td align="right">
-						<input type="Submit" name="submit" value="Insert">
+						<input type="Submit" name="submit" value="Delete">
 					</td>
 				</tr>
 				

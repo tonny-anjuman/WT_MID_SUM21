@@ -73,13 +73,13 @@
 					<td><span><?php echo $error_type;?></span></td>
 				</tr>
 				<tr>
-					<td align="right">Password :</td>
+					<td align="right">New Password :</td>
 					<td> <input type="password" name="password" value="<?php echo $password; ?>"></td>
 					<td><span> <?php echo $error_password;?> </span></td>
 				</tr>
 				<tr>
 					<td align="right">
-						<input type="Submit" name="submit" value="Insert">
+						<input type="Submit" name="submit" value="Update">
 					</td>
 				</tr>
 				
