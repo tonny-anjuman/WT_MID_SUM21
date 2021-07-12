@@ -547,7 +547,14 @@
 						<input type="Submit" name="submit" value="Insert">
 					</td>
 				</tr>
-				
+				<tr>
+					<td></td>
+                    <td align="center" >
+                        <a href="password_change.php">Passwor change</a><br>
+                        <a href="search_form.php">Search Form</a><br>
+                        <a href="user_acc_update.php">User account update</a>
+						
+                    </td>
 			</table>
 		</form>
 	</body>

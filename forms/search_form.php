@@ -74,6 +74,16 @@
 					<td align="right"><input type="text" placeholder="Enter Admin ID" name="admin_id" value="<?php echo $admin_id; ?>"> <input type="Submit" name="submit2" value="Enter"></td>
 					<td><?php echo $error_admin_id;?></td>
 				</tr>
+				<tr>
+					<td></td>
+                    <td align="center" >
+                        <a href="password_change.php">Passwor change</a><br>
+                        <a href="teacher_info.php">Teacher Personal Information Insert</a><br>
+                        <a href="user_acc_update.php">User account update</a>
+						
+                    </td>
+                </tr>
+				</tr>
 			</table>
 		</form>
 	</body>

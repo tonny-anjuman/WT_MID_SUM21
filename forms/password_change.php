@@ -77,6 +77,15 @@
 						<input type="Submit" name="submit" value="Insert">
 					</td>
 				</tr>
+				<tr>
+					<td></td>
+                    <td align="center" >
+                        <a href="search_form.php">Search Form</a><br>
+                        <a href="teacher_info.php">Teacher Personal Information Insert</a><br>
+                        <a href="user_acc_update.php">User account update</a>
+						
+                    </td>
+				</tr>
 			</table>
 		</form>
 	</body>

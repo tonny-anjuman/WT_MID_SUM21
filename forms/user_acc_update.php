@@ -82,7 +82,14 @@
 						<input type="Submit" name="submit" value="Update">
 					</td>
 				</tr>
-				
+				<tr>
+					<td></td>
+                    <td align="center" >
+                        <a href="password_change.php">Passwor change</a><br>
+                        <a href="search_form.php">Search Form</a><br>
+                        <a href="teacher_info.php">Teacher Personal Information Insert</a>
+                    </td>
+				</tr>
 			</table>
 		</form>
 	</body>
