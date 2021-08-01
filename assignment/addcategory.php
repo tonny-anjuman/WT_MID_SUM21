@@ -1,4 +1,4 @@
-<?php include 'admin_header.php';
+<?php 
 	include 'controlers/CategoryController.php';
 ?>
 <!--addproduct status-->
@@ -16,4 +16,3 @@
 </div>
 
 <!--addproduct ends-->
-<?php include 'admin_footer.php';?>

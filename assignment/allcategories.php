@@ -1,10 +1,12 @@
-<?php include 'admin_header.php';
+<?php 
 	include 'controlers/CategoryController.php';
 	$categories=getAllCategories();
 ?>
 <!--all categories status-->
 <div class="center">
 	<h3 class="text">All Categories</h3>
+	<input type="text" placeholder="Search...." onkeyup="searchProduct(this)">
+	<div id="suggesstion"></div>
 	<table class="table table-stripad">
 		<thead>
 			<th>S1#</th>
@@ -30,7 +32,7 @@
 	</table>
 </div>
 <!--All Categories ends-->
-<?php include 'admin_footer.php';?>
+<script src="products.js"></script>
 			
 			
 			

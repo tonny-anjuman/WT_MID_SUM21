@@ -22,4 +22,9 @@
         $rs = get($query);
         return $rs[0];
     }
+	function searchProduct($key){
+		$query = "select id,name from categories where name like '%$key%'";
+		$rs = get($query);
+		return $rs;
+	}
 ?>
